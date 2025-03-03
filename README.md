@@ -51,6 +51,15 @@ Assicurati di avere installato le seguenti librerie:
 - **matplotlib**
 - **yfinance**
 
-Puoi installarle tramite pip:
-```bash
-pip install pandas matplotlib yfinance
+### Personalizza
+Si possonon personalizzare le seguenti:
+- Cambia il ticker per analizzare un altro ETF
+- Modifica il periodo e le finsestre di analisi
+- Aggiorna l'investimento iniziale e i costi di transazione
+
+---
+
+## Conclusioni
+Questo script permette di giocare e osservare l'andamento di un ETF, scarica i dati suoi storici da Yahoo Finance,ne calcola il rendimento netto su specifici periodi considerando tasse e costi di transazione e identifica variazioni significative tramite una media mobile a 7 giorni. Infine visualizza l'andamento dell'ETF con un grafico evidenziando giorni che hanno delle particolari variazioni. 
+
+
